@@ -7,6 +7,14 @@
 <title>Insert title here</title>
 </head>
 <body>
+	<%
+		int n2 = 20;
+		
+		for(int i =1; i<=5; i++){
+			
+			out.println("<p>" + i + ": Hello JSP~</p>");
+		}
+	%>
 
 </body>
 </html>
